@@ -25,7 +25,6 @@ jobs:
         run: |
           pyinstaller --onefile --noconsole ^
             --name=mobar ^
-            --icon=assets\icon.ico ^
             --hidden-import=wmi ^
             --hidden-import=win32com ^
             --hidden-import=pynvml ^
